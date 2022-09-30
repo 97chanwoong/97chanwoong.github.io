@@ -3,18 +3,17 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>portfolio</title>
+	<title>박찬웅 이력서</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="author" content="" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
-
+	<link rel="shortcut icon" href="images/icons8.png">
+	
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -57,6 +56,7 @@
 					<ul>
 						<li><a style="color:white;font-size:15px;" href="#" data-nav-section="about">About</a></li>
 						<li><a style="color:white;font-size:15px;" href="#" data-nav-section="skills">Skills</a></li>
+						<li><a style="color:white;font-size:15px;" href="#" data-nav-section="certificate">Certificate</a></li>
 						<li><a style="color:white;font-size:15px;" href="#" data-nav-section="education">Education</a></li>
 						<li><a style="color:white;font-size:15px;" href="#" data-nav-section="project">Project</a></li>
 						<li><a style="color:white;font-size:15px;" href="#" data-nav-section="contact">Contact</a></li>
@@ -78,7 +78,7 @@
 									<p><strong>백앤드 개발자가 되기위해 꾸준히 노력하고 있는 박찬웅입니다.<br></strong></p><br>
 									<p>Name : <strong>박찬웅</strong></p>
 									<p>Birth : <strong>1997.12.10</strong></p>
-									<p>Phone : <strong>010-####-####</strong></p>
+									<p>Phone : <strong>010-9378-****</strong></p>
 									<p>Email : <strong>abcdef1210@naver.com</strong></p>
 									<p>Github : <a href="https://github.com/97chanwoong"><strong>github.com/97chanwoong</strong></a></p>
 								</div>
@@ -149,6 +149,37 @@
 						</div>
 					</div>
 				</div>
+		</section>	
+		
+		<section class="colorlib-certificate" data-section="certificate">
+			<div class="colorlib-narrow-content">				
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+								<span class="heading-meta">CERTIFICATE</span>
+								<h2 class="colorlib-heading animate-box">CERTIFICATE</h2>
+							</div>
+						</div>
+						
+						<div class="row row-pt-md">
+						
+						<div class="col-md-3 text-center animate-box">
+							<div class="services color-4">
+								<div class="desc">
+									<div class="text-left">
+									 <span>• 운전면허 2종보통</span><br>
+									 <div>
+									 &nbsp;<br>
+									 &nbsp;<br>
+									 &nbsp;<br>
+									 &nbsp;<br>
+									 &nbsp;<br>
+									 </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>	
 		
 		<section class="colorlib-education" data-section="education">
@@ -234,7 +265,7 @@
 				</div>
 			</div>
 		</section>
-
+		
 		<section class="colorlib-experience" data-section="project">
 			<div class="colorlib-narrow-content">
 				<div class="row">
@@ -255,7 +286,7 @@
 				               	<h2>LMS <span> 2022.9 ~ </span></h2>
 				               	  <h2 style="color:#46AAFF;"><strong>LMS</strong></h2>	
 				                  <p>
-				                  	<img src="#" style="width: 80%;">
+				                  	<img src="" style="width: 80%;">
 				                  </p>
 				                  <p>
 				                  	<strong>Keyword</strong> <br>
@@ -274,28 +305,33 @@
 				  					# 시험 관리 
 				  					# 과제 관리 
 				                  </p>
-				                  <P>
-				                  	개발 참여인원 : 4명<br>
-				               		Spring (MVC)방식을 이용해 IT 전문 학원 LMS를 구현한 CRUD기반 웹 페이지입니다.<br>
-				               		LMS의  기본적인 기능으로 학생의 시간표, 출결, 일정, 시험, 과제를 구현해 놓았고,<br>
-				               		관리자 기능으로는 멤버(강사, 행정, 학생) 회원가입 승인. 강의, 과목 개설 및 승인 등 레벨에 따라 서로 다른 기능으로 구현했습니다.<br>
-				               		...등 Ajax를 통한 차트가 통계치를 나타냅니다<br>
-				                  </P>
+				                  	<ul>
+										<li>개발 참여인원 : 4명</li>
+										<li>멤버파트 구현 : 회원가입 및 가입 승인 / 일정 기간 비로그인 시 Spring Scheduler를 이용한 비활성화</li>
+										<li>출석 파트 구현 : Calendar API를 이용한 학생 출결관리</li>
+										<li>일정 파트 구현 : Calendar API를 이용한 멤버 일정관리</li>
+										<li>시험 파트 구현 : 객관식, 주관식 문제은행을 통한 시험 출제 / 성적 처리 / 시험 제출 / 성적확인</li>
+										<li>과제 파트 구현 : 과제출제 / 과제제출</li>
+										<li>통계 파트 구현 : 출석, 성적 등등 통계치</li>
+									</ul>
 				                  <p>
 				                  	<strong>Development Environment</strong> <br>
 				                  	OS : Window10 <br>
-				                  	Library : Spring Boot, JSTL, jQuery, Lombok, MyBatis, BootStrap <br>
-				                  	Language : HTML5, CSS3 , Java(openJDK 11.0.13), JavaScript<br>
+				                  	Library :  Servlet, JSTL, jQuery, Lombok, MyBatis, BootStrap <br>
+				                  	Language : HTML5, CSS3 , Java(JavaSE-11), JavaScript<br>
 				                  	Database : MariaDB, HeidiSQL <br>
-				                  	WAS : Apache Tomcat9 IDE : Spring Tool Suite 4 <br>
+				                  	WAS : Apache Tomcat9<br>
+				                	IDE : SpringToolSuite4.exe<br>	
 				                  	<strong>Service Environment</strong><br>
-				                  	OS: Ubuntu (16.04)<br>
+				                  	OS: Ubuntu (18.04)<br>
 				                  	Platform : AWS Lightsail<br>
 				                  </p>
-             						<button type="button" class="btn btn-link" onclick="">Github</button>
+				                  <p>
+             						<button type="button" class="btn btn-link" onclick="window.open('https://github.com/lmsbakha')">Github</button>
 					              	<button type="button" class="btn btn-link" onclick="">요구사항 정의서</button>
 					              	<button type="button" class="btn btn-link" onclick="">ERD</button>
-					              	<button type="button" class="btn btn-primary" onclick="">프로젝트</button>
+					              	<button type="button" class="btn btn-primary" onclick="window.open('http://3.38.124.179/lms/bakha/login')">프로젝트</button>
+				               	</p>
 				               </div>
 				            </div>
 				         </article>
@@ -307,29 +343,53 @@
 				               </div>
 
 				               <div class="timeline-label">
-				                  <h2>BLOG<span> 2022.08.19 ~ 2022.08.24 </span></h2>
-				                  <h2 style="color:#46AAFF;"><strong>카페</strong></h2>
+				                  <h2>Board<span> 2022.08.19 ~ 2022.08.24 </span></h2>
+				                  <h2 style="color:#46AAFF;"><strong>Board</strong></h2>
 				                  <p>
-				                  	<img src="#" style="width: 80%;">
+				                  	<img src="images/m2.JPG" style="width: 80%;">
 				                  </p>
-				                  <p>
+				                   <p>
 				                  	<strong>Keyword</strong> <br>
+									# JAVA 
+				                  	# Model2
+									# Board
+									# CRUD
+									# JQuery
+									# Ajax
 				                  	<br>
+				  					# Blog
+				  					# 게시판
+				  					# 조회수
+				  					# 좋아요 추천 
+				  					# 좋아요 삭제
+				  					# 내가 작성한 글
 				                  </p>
-				                  <P>
-				                  </P>
-					             <p>
-				                  	<strong>Development Environment</strong> <br>
-				                  </p>
+				                  	<ul>
+										<li>개발 참여인원 : 개인 프로젝트</li>
+										<li>회원가입 / 아이디 중복검사 / 다음 API를 통한 주소검색</li>
+										<li>회원 상세보기 / 회원 정보수정 / 회원 비밀번호 변경 / 회원 탈퇴</li>
+										<li>게시글 작성 / 게시글 상세보기 / 게시글 수정 / 게시글 삭제</li>
+										<li>내가 작성한 글 리스트</li>
+										<li>조회수 / 좋아요</li>
+									</ul>
 				                  <p>
+				                  	<strong>Development Environment</strong> <br>
+				                  	OS : Window10 <br>
+				                  	Library :  Servlet, JSTL, jQuery, BootStrap, JSP <br>
+				                  	Language : HTML5, CSS3 , Java(JavaSE-11), JavaScript<br>
+				                  	Database : MariaDB, HeidiSQL <br>
+				                  	WAS : Apache Tomcat9<br>
+				                	IDE :  Eclipse(2021-12 (4.22.0)).exe<br>	
 				                  	<strong>Service Environment</strong><br>
+				                  	OS: Ubuntu (18.04)<br>
+				                  	Platform : AWS Lightsail<br>
 				                  </p>
 				                  <p>
 				                  	<!-- window.open('window.open('images/ERD.png')); -->
-				                  	<button type="button" class="btn btn-link" onclick="">Github</button>
+				                  	<button type="button" class="btn btn-link" onclick="window.open('https://github.com/97chanwoong/m2Board')">Github</button>
 					              	<button type="button" class="btn btn-link" onclick="">요구사항 정의서</button>
 					              	<button type="button" class="btn btn-link" onclick="window.open('images/m2BoardERD.JPG')">ERD</button>
-					              	<button type="button" class="btn btn-primary" onclick="">프로젝트</button>
+					              	<button type="button" class="btn btn-primary" onclick="window.open('http://3.38.124.179/m2/login')">프로젝트</button>
 					              </p>
 				               </div>
 				            </div>
@@ -343,22 +403,52 @@
 				               	<h2>ShoppingMall<span> 2022-08.01 ~ 2022-08.30</span></h2>
 				               	  <h2 style="color:#46AAFF;"><strong>쇼핑몰</strong></h2>	
 				                  <p>
-				                  	<img src="#" style="width: 80%;">
+				                  	<img src="images/shop.JPG" style="width: 80%;">
 				                  </p>
-				                  <p>
+				                   <p>
 				                  	<strong>Keyword</strong> <br>
+									# JAVA 
+				                  	# Model1
+									# CRUD
+									# JS
+									# JQuery
+									# Ajax
 				                  	<br>
+				  					# 쇼핑몰
+				  					# 장바구니
+				  					# 결제
+				  					# 리뷰 
+				  					# 검색
+				                  </p>
+				                  	<ul>
+										<li>개발 참여인원 : 개인 프로젝트</li>
+										<li>관리자 페이지 : 사원관리 / 상품관리 / 주문관리 / 고객관리 / 공지관리 / 월별 주문량 통계</li>
+										<li>회원가입 / 아이디 중복검사 / 다음 API를 통한 주소검색</li>
+										<li>회원 상세보기 / 회원 정보 수정 / 회원 비밀번호 변경 / 회원 탈퇴</li>
+										<li>상품 상세보기 / 상품 클릭 시 조회 수 올라가기</li>
+										<li>장바구니 추가 / 장바구니 삭제 / 장바구니 수량 변경</li>
+										<li>주문 / 주문 확인 / 주문 취소 / 환불</li>
+										<li>리뷰 작성 / 리뷰 수정 / 리뷰 삭제</li>
+										<li>인기순 / 최신순 / 판매량순 / 높은 가격순 / 낮은 가격순</li>
+										<li>공지사항</li>
+										<li>상품 검색</li>
+									</ul>
+				                  <p>
+				                  	<strong>Development Environment</strong> <br>
+				                  	OS : Window10 <br>
+				                  	Library :  Servlet, JS, jQuery, BootStrap, JSP <br>
+				                  	Language : HTML5, CSS3 , Java(JavaSE-11), JavaScript<br>
+				                  	Database : MariaDB, HeidiSQL <br>
+				                  	WAS : Apache Tomcat9<br>
+				                	IDE :  Eclipse(2021-12 (4.22.0)).exe<br>	
+				                  	<strong>Service Environment</strong><br>
+				                  	OS: Ubuntu (18.04)<br>
+				                  	Platform : AWS Lightsail<br>
 				                  </p>
 				                  <p>
-				                  </p>
-				                  <p>
-				                  </p>
-				                  <p>
-				                  </p>
-				                  <p>
-				                  	<button type="button" class="btn btn-link" onclick="">Github</button>
+				                  	<button type="button" class="btn btn-link" onclick="window.open('https://github.com/97chanwoong/shop-gdj50')">Github</button>
 				                  	<button type="button" class="btn btn-link" onclick="window.open('images/shopERD.JPG')">ERD</button>
-				                  	<button type="button" class="btn btn-primary" onclick="">프로젝트</button>
+				                  	<button type="button" class="btn btn-primary" onclick="window.open('http://3.38.124.179/shop/Main.jsp')">프로젝트</button>
 				                  </p>
 				               </div>
 				            </div>
@@ -379,19 +469,14 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-							<div class="col-md-10">
-								<div class="about-desc">
-									<h3>My Address</h3>
-									<ul class="contact-info">
-										<li>Guro Seoul, Republic of Korea</li>
-										<li>010-####-####</li>
-										<li>abcdef1210@naver.com</li>
-									</ul>
-									<div style="height: 220px;"></div>
-								</div>
-							</div>
-						</div>
+						<h3>My Address</h3>
+						<ul class="contact-info">
+							<li>Guro Seoul, Republic of Korea</li>
+							<li>010-9378-****</li>
+							<li>abcdef1210@naver.com</li>
+						</ul>
+						<div class="center-block" id="map" style="width:100%;height:600px;"></div>
+						<div style="height: 220px;"></div>
 					</div>
 				</div>
 			</div>
@@ -400,7 +485,42 @@
 	</div><!-- end:colorlib-main -->
 	</div><!-- end:container-wrap -->
 	</div><!-- end:colorlib-page -->
+	
+  	<script type="text/javascript"
+       src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2eb3c2736bb5d65dbc4b8211eea19288&libraries=services">
+    </script>
+     <!--End Map Section-->
+     
+    <script>
+       var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+         mapOption = {
+           center: new kakao.maps.LatLng(37.4982204,126.8761338), // 지도의 중심좌표
+           level: 4 // 지도의 확대 레벨
+         };
 
+       // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+       var map = new kakao.maps.Map(mapContainer, mapOption);
+
+
+       var zoomControl = new kakao.maps.ZoomControl();
+       // 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤을 생성합니다
+       var mapTypeControl = new kakao.maps.MapTypeControl();
+       // 지도 타입 컨트롤을 지도에 표시합니다
+       map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
+       map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+
+       var geocoder = new kakao.maps.services.Geocoder();
+       // 마커가 표시될 위치입니다 
+       var markerPosition = new kakao.maps.LatLng(37.4982204,126.8761338);
+
+       // 마커를 생성합니다
+       var marker = new kakao.maps.Marker({
+         position: markerPosition
+       });
+
+       // 마커가 지도 위에 표시되도록 설정합니다
+       marker.setMap(map);
+    </script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->

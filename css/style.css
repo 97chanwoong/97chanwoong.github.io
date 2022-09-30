@@ -80,7 +80,7 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #091022b3;
+  background:#343957;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -381,7 +381,7 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  padding-bottom: 4em;
   clear: both;
   width: 100%;
   display: block; }
@@ -389,6 +389,7 @@ body.offcanvas {
     .colorlib-experience,
     .colorlib-skills,
     .colorlib-education,
+    .colorlib-certificate,
     .colorlib-blog,
     .colorlib-work,
     .colorlib-about,
@@ -405,7 +406,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -461,7 +462,7 @@ body.offcanvas {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Quicksand", Arial, sans-serif;
-  background-color: #3e4c5c;
+  background-color: #343957;
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -1185,9 +1186,9 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #2c98f0;
-  color: #fff;
-  border: 2px solid #2c98f0; }
+ background: #5939e4;
+    color: #fff;
+    border: 1px solid #5939e4; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #44a4f2 !important;
     border-color: #44a4f2 !important; }
