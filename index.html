@@ -475,7 +475,7 @@
 							<li>010-9378-****</li>
 							<li>abcdef1210@naver.com</li>
 						</ul>
-						<div class="center-block" id="map" style="width:100%;height:600px;"></div>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.411179137456!2d126.87394865115606!3d37.498219235695835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9e0c352c98e1%3A0x6a8e28e8fa7732fb!2z7ISc7Jq47Yq567OE7IucIOq1rOuhnOq1rCDqtazsnbzroZw46ri4IDEyMQ!5e0!3m2!1sko!2skr!4v1664843181130!5m2!1sko!2skr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						<div style="height: 220px;"></div>
 					</div>
 				</div>
@@ -486,41 +486,6 @@
 	</div><!-- end:container-wrap -->
 	</div><!-- end:colorlib-page -->
 	
-  	<script type="text/javascript"
-       src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2eb3c2736bb5d65dbc4b8211eea19288&libraries=services">
-    </script>
-     <!--End Map Section-->
-     
-    <script>
-       var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-         mapOption = {
-           center: new kakao.maps.LatLng(37.4982204,126.8761338), // 지도의 중심좌표
-           level: 4 // 지도의 확대 레벨
-         };
-
-       // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
-       var map = new kakao.maps.Map(mapContainer, mapOption);
-
-
-       var zoomControl = new kakao.maps.ZoomControl();
-       // 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤을 생성합니다
-       var mapTypeControl = new kakao.maps.MapTypeControl();
-       // 지도 타입 컨트롤을 지도에 표시합니다
-       map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
-       map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
-
-       var geocoder = new kakao.maps.services.Geocoder();
-       // 마커가 표시될 위치입니다 
-       var markerPosition = new kakao.maps.LatLng(37.4982204,126.8761338);
-
-       // 마커를 생성합니다
-       var marker = new kakao.maps.Marker({
-         position: markerPosition
-       });
-
-       // 마커가 지도 위에 표시되도록 설정합니다
-       marker.setMap(map);
-    </script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
